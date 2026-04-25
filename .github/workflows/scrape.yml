@@ -1,0 +1,54 @@
+name: 마라톤 일정 자동 갱신
+
+on:
+  schedule:
+    - cron: '0 18 * * 6'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install --quiet requests beautifulsoup4
+
+      - name: Scrape marathon catalog
+        run: |
+          python3 scripts/scrape_marathons.py > data/marathons.json
+          echo ""
+          echo "=== 결과 ==="
+          python3 - <<'PY'
+          import json
+          d = json.load(open("data/marathons.json"))
+          print(f"총 {len(d['marathons'])}개 대회")
+          from collections import Counter
+          for r, c in Counter(m["region"] for m in d["marathons"]).most_common():
+              print(f"  {r}: {c}")
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git diff --quiet data/marathons.json; then
+            echo "변동 없음 — 커밋 스킵"
+            exit 0
+          fi
+          git add data/marathons.json
+          git commit -m "마라톤 일정 자동 갱신 ($(date -u +'%Y-%m-%d'))
+
+          출처: roadrun.co.kr (마라톤온라인)
+          [skip ci]"
+          git push
