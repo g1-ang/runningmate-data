@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T05:26:54+09:00",
+  "generatedAt": "2026-10-04T05:24:45+09:00",
   "source": "roadrun.co.kr (마라톤온라인)",
   "marathons": [
     {
@@ -70,7 +70,7 @@
         "Half"
       ],
       "registrationOpenDate": "2026-07-07T09:00:00+09:00",
-      "registrationCloseDate": "2026-09-27T09:00:00+09:00",
+      "registrationCloseDate": "2026-09-30T09:00:00+09:00",
       "announcementDate": "2026-09-26T09:00:00+09:00",
       "raceDate": "2026-10-03T09:00:00+09:00",
       "venue": "상암 월드컵공원 평화광장",
@@ -754,6 +754,25 @@
       "source": "roadrun.co.kr"
     },
     {
+      "id": "2B2ACD4C-C731-5FCF-A77D-8C94D33C5BAD",
+      "name": "독립유공자후손 기부마라톤 2026대학생RUN",
+      "region": "서울",
+      "courses": [
+        "5km",
+        "10km"
+      ],
+      "registrationOpenDate": "2026-09-21T09:00:00+09:00",
+      "registrationCloseDate": "2026-10-04T09:00:00+09:00",
+      "announcementDate": "2026-10-04T09:00:00+09:00",
+      "raceDate": "2026-10-11T09:00:00+09:00",
+      "venue": "서울시 구로구 안양천 축구장A",
+      "officialURL": "http://www.roadrun.co.kr/schedule/view.php?no=41897",
+      "organizer": "대학문화유니온, 사단법인 독립",
+      "entryFee": "",
+      "sourceID": "41897",
+      "source": "roadrun.co.kr"
+    },
+    {
       "id": "D8291B7A-FCEA-52C1-A1CE-EBCFCD671B1C",
       "name": "83타워 업힐런",
       "region": "대구",
@@ -780,12 +799,12 @@
         "10km"
       ],
       "registrationOpenDate": "2026-09-04T09:00:00+09:00",
-      "registrationCloseDate": "2026-09-20T09:00:00+09:00",
+      "registrationCloseDate": "2026-09-30T09:00:00+09:00",
       "announcementDate": "2026-10-04T09:00:00+09:00",
       "raceDate": "2026-10-11T09:00:00+09:00",
       "venue": "미사경정공원 관리동 광장",
       "officialURL": "http://www.roadrun.co.kr/schedule/view.php?no=41852",
-      "organizer": "미사강변종합사회복지관, 진선재",
+      "organizer": "미사강변사회복지관,진선재단",
       "entryFee": "",
       "sourceID": "41852",
       "source": "roadrun.co.kr"
@@ -826,25 +845,6 @@
       "organizer": "기호일보",
       "entryFee": "",
       "sourceID": "41769",
-      "source": "roadrun.co.kr"
-    },
-    {
-      "id": "CE33B5D9-B6D3-5213-9D55-F99D961D6BA7",
-      "name": "2026 대학생RUN",
-      "region": "서울",
-      "courses": [
-        "5km",
-        "10km"
-      ],
-      "registrationOpenDate": "2026-08-10T09:00:00+09:00",
-      "registrationCloseDate": "2026-09-20T09:00:00+09:00",
-      "announcementDate": "2026-10-04T09:00:00+09:00",
-      "raceDate": "2026-10-11T09:00:00+09:00",
-      "venue": "구일역 안양천 축구장",
-      "officialURL": "http://www.roadrun.co.kr/schedule/view.php?no=41785",
-      "organizer": "대학문화유니온",
-      "entryFee": "",
-      "sourceID": "41785",
       "source": "roadrun.co.kr"
     },
     {
@@ -1062,6 +1062,24 @@
       "organizer": "굿네이버스",
       "entryFee": "",
       "sourceID": "41890",
+      "source": "roadrun.co.kr"
+    },
+    {
+      "id": "F154F7AF-F2CB-5BCE-AB46-EF4AA3766254",
+      "name": "2026 원주 바람길숲 기부런",
+      "region": "강원",
+      "courses": [
+        "10km"
+      ],
+      "registrationOpenDate": "2026-09-23T09:00:00+09:00",
+      "registrationCloseDate": "2026-10-13T09:00:00+09:00",
+      "announcementDate": "2026-10-10T09:00:00+09:00",
+      "raceDate": "2026-10-17T09:00:00+09:00",
+      "venue": "강원도 원주 치악산 바람길숲",
+      "officialURL": "http://www.roadrun.co.kr/schedule/view.php?no=41896",
+      "organizer": "한국관광공사",
+      "entryFee": "",
+      "sourceID": "41896",
       "source": "roadrun.co.kr"
     },
     {
@@ -1994,7 +2012,7 @@
         "10km"
       ],
       "registrationOpenDate": "2026-09-03T09:00:00+09:00",
-      "registrationCloseDate": "2026-10-17T09:00:00+09:00",
+      "registrationCloseDate": "2026-09-29T09:00:00+09:00",
       "announcementDate": "2026-10-24T09:00:00+09:00",
       "raceDate": "2026-10-31T09:00:00+09:00",
       "venue": "석문방조제 인근",
@@ -2641,7 +2659,7 @@
         "10km"
       ],
       "registrationOpenDate": "2026-07-27T09:00:00+09:00",
-      "registrationCloseDate": "2026-10-18T09:00:00+09:00",
+      "registrationCloseDate": "2026-09-27T09:00:00+09:00",
       "announcementDate": "2026-11-01T09:00:00+09:00",
       "raceDate": "2026-11-08T09:00:00+09:00",
       "venue": "신정교하부육상트랙구장",
@@ -2696,7 +2714,7 @@
         "10km"
       ],
       "registrationOpenDate": "2026-07-02T09:00:00+09:00",
-      "registrationCloseDate": "2026-09-30T09:00:00+09:00",
+      "registrationCloseDate": "2026-10-12T09:00:00+09:00",
       "announcementDate": "2026-11-01T09:00:00+09:00",
       "raceDate": "2026-11-08T09:00:00+09:00",
       "venue": "서울마당(지하철1호선 시청역 4번출구)",
@@ -2799,6 +2817,25 @@
       "organizer": "하청면체육회",
       "entryFee": "",
       "sourceID": "41658",
+      "source": "roadrun.co.kr"
+    },
+    {
+      "id": "D0859709-115B-543E-8EB8-AE13DB37DF02",
+      "name": "서울 빵빵런 2026",
+      "region": "서울",
+      "courses": [
+        "5km",
+        "10km"
+      ],
+      "registrationOpenDate": "2026-09-21T09:00:00+09:00",
+      "registrationCloseDate": "2026-11-13T09:00:00+09:00",
+      "announcementDate": "2026-11-07T09:00:00+09:00",
+      "raceDate": "2026-11-14T09:00:00+09:00",
+      "venue": "뚝섬한강공원 수변무대",
+      "officialURL": "http://www.roadrun.co.kr/schedule/view.php?no=41895",
+      "organizer": "(주)1986프로덕션",
+      "entryFee": "",
+      "sourceID": "41895",
       "source": "roadrun.co.kr"
     },
     {
@@ -3135,7 +3172,7 @@
         "10km"
       ],
       "registrationOpenDate": "2026-07-19T09:00:00+09:00",
-      "registrationCloseDate": "2026-09-30T09:00:00+09:00",
+      "registrationCloseDate": "2026-10-30T09:00:00+09:00",
       "announcementDate": "2026-11-08T09:00:00+09:00",
       "raceDate": "2026-11-15T09:00:00+09:00",
       "venue": "청계산수변공원",
@@ -3299,6 +3336,26 @@
       "source": "roadrun.co.kr"
     },
     {
+      "id": "CF83E9E6-B457-56BE-BDA3-E3ACD9429E06",
+      "name": "2026 서울 라이프마라톤(가을)",
+      "region": "서울",
+      "courses": [
+        "5km",
+        "10km",
+        "Half"
+      ],
+      "registrationOpenDate": "2026-08-10T09:00:00+09:00",
+      "registrationCloseDate": "2026-11-20T09:00:00+09:00",
+      "announcementDate": "2026-11-14T09:00:00+09:00",
+      "raceDate": "2026-11-21T09:00:00+09:00",
+      "venue": "평화의공원 평화광장",
+      "officialURL": "http://www.roadrun.co.kr/schedule/view.php?no=41894",
+      "organizer": "(주)1986프로덕션",
+      "entryFee": "",
+      "sourceID": "41894",
+      "source": "roadrun.co.kr"
+    },
+    {
       "id": "03A7167C-1946-5E6E-A8F9-46B7441114C2",
       "name": "런텐 14차 레이스 JUST RUN10 대구",
       "region": "대구",
@@ -3315,27 +3372,6 @@
       "organizer": "(주)러닝브레이커,전국러닝협회",
       "entryFee": "",
       "sourceID": "41868",
-      "source": "roadrun.co.kr"
-    },
-    {
-      "id": "E8096201-4F64-521A-99F6-8AE5EDBBF123",
-      "name": "2026 전마협 보성녹차 Autumn 마라톤",
-      "region": "광주",
-      "courses": [
-        "5km",
-        "10km",
-        "Half",
-        "Full"
-      ],
-      "registrationOpenDate": "2026-09-11T09:00:00+09:00",
-      "registrationCloseDate": "2026-10-16T09:00:00+09:00",
-      "announcementDate": "2026-11-14T09:00:00+09:00",
-      "raceDate": "2026-11-21T09:00:00+09:00",
-      "venue": "보성군 공설운동장",
-      "officialURL": "http://www.roadrun.co.kr/schedule/view.php?no=41863",
-      "organizer": "전국마라톤협회",
-      "entryFee": "",
-      "sourceID": "41863",
       "source": "roadrun.co.kr"
     },
     {
@@ -3373,6 +3409,24 @@
       "organizer": "주식회사 락앤런",
       "entryFee": "",
       "sourceID": "41748",
+      "source": "roadrun.co.kr"
+    },
+    {
+      "id": "99C29796-1F4C-5581-AA03-55B927EB6CCC",
+      "name": "K-거상 트레일 러닝 대회",
+      "region": "서울",
+      "courses": [
+        "5km"
+      ],
+      "registrationOpenDate": "2026-09-28T09:00:00+09:00",
+      "registrationCloseDate": "2026-11-21T09:00:00+09:00",
+      "announcementDate": "2026-11-14T09:00:00+09:00",
+      "raceDate": "2026-11-21T09:00:00+09:00",
+      "venue": "가례초등학교(경남 의령)",
+      "officialURL": "http://www.roadrun.co.kr/schedule/view.php?no=41899",
+      "organizer": "경남관광재단",
+      "entryFee": "",
+      "sourceID": "41899",
       "source": "roadrun.co.kr"
     },
     {
@@ -3630,6 +3684,24 @@
       "source": "roadrun.co.kr"
     },
     {
+      "id": "172EA8B1-6CB3-5A96-AC57-A272AE499248",
+      "name": "제9회 광진구청장배 육상대회",
+      "region": "서울",
+      "courses": [
+        "10km"
+      ],
+      "registrationOpenDate": "2026-09-28T09:00:00+09:00",
+      "registrationCloseDate": "2026-11-11T09:00:00+09:00",
+      "announcementDate": "2026-11-22T09:00:00+09:00",
+      "raceDate": "2026-11-29T09:00:00+09:00",
+      "venue": "중곡동 중랑천 물놀이장 옆",
+      "officialURL": "http://www.roadrun.co.kr/schedule/view.php?no=41898",
+      "organizer": "광진구체육회(광진구육상연맹)",
+      "entryFee": "",
+      "sourceID": "41898",
+      "source": "roadrun.co.kr"
+    },
+    {
       "id": "027CD2C6-7DDB-5B46-995C-F26B28224BF7",
       "name": "2026 원주 치악마라톤",
       "region": "강원",
@@ -3833,7 +3905,7 @@
         "Half"
       ],
       "registrationOpenDate": "2026-08-01T09:00:00+09:00",
-      "registrationCloseDate": "2026-10-28T09:00:00+09:00",
+      "registrationCloseDate": "2026-11-10T09:00:00+09:00",
       "announcementDate": "2026-11-28T09:00:00+09:00",
       "raceDate": "2026-12-05T09:00:00+09:00",
       "venue": "여의도 물빛무대 앞 광장",
